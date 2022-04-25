@@ -39,10 +39,33 @@ body {
 
                         /* Утилиты */
 
-li {
-    list-style-type: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
 
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
 
                         /* _____________________________________________ */
     
@@ -60,7 +83,7 @@ li {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.9; 
-    text-decoration: none;
+    
 }
 
 .logo-header {
@@ -79,7 +102,6 @@ li {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
 }
 
 .site-nav-link.current {
@@ -97,7 +119,7 @@ li {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
+    
 }
 
 .contacts-link:hover,
@@ -171,7 +193,7 @@ li {
 }
 
 .team-list-link {
-    text-decoration: none;
+    
 }
 
 .team-list .name {
@@ -237,7 +259,7 @@ li {
                         /* Проекты */
 
 .project-link {
-    text-decoration: none;
+    
 }
 
 .project-title {
