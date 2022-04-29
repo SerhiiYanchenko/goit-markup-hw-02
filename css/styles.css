@@ -59,6 +59,8 @@ ol {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .list {
@@ -96,7 +98,7 @@ address {
 .page-header {
     padding-top: 24px;
     padding-bottom: 25px;
-    border-bottom: 1px solid #ECECEC; 
+    border-bottom: 1px solid #ECECEC;
 }
 
 .page-header .container {
