@@ -2,6 +2,7 @@
     display: flex;
 }
 
+
 .features-thumbs {
     display: flex;
     background-color: #F5F4FA;
@@ -12,18 +13,21 @@
     margin-bottom: 30px;
 }
 
+
 .features-icons {
     width: 70px;
     height: 70px;
 }
 
+
 .features-item {
     width: 270px;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
-.features-item:not(:last-child) {
-    margin-right: 30px;
-}
 
 .features-title {
     margin-bottom: 10px;
@@ -34,6 +38,7 @@
     line-height: 1.14;
     text-transform: uppercase;
 }
+
 
 .features-text {
     font-weight: 400;
