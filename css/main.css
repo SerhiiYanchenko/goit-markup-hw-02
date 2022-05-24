@@ -21,6 +21,8 @@
   overflow: hidden;
 }
 
+
+
 body {
   background-color: var(--primare-bg-color);
   color: var(--primary-text-color);

@@ -1,12 +1,12 @@
-// .contacts {
-//     display: flex;
-//     margin-left: auto;
-// }
+.contacts {
+    display: flex;
+    margin-left: auto;
+}
 
 
-// .contacts-mail {
-//     margin-right: 50px;
-// }
+.contacts-mail {
+    margin-right: 50px;
+}
 
 
 .icon-mail {
@@ -50,7 +50,6 @@
 
     &:hover,
     &:focus {
-    color: var(--accent-color);
+        color: var(--accent-color);
     }
 }
-
